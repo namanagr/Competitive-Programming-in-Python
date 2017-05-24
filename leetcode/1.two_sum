@@ -1,0 +1,15 @@
+#!/usr/bin/python
+# Finds if there are two number whose sum is equal to the target number
+
+def two_sum(nums, target):
+    map = {}
+    for i in range(len(nums)):
+        if nums[i] in map:
+            return [map[nums[i]],i]
+        map[target - nums[i]] = i
+    return False
+
+if __name__ == "__main__":
+    nums = [3,2,4]
+    target = 6
+    print two_sum(nums,target)
