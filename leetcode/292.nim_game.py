@@ -10,4 +10,5 @@ def nim_game(num_of_stones):
         return True
 
 if __name__ == "__main__":
+    num_of_stones = 10
     print nim_game(num_of_stones)

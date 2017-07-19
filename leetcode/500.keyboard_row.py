@@ -48,7 +48,20 @@ def keyboard_row(words):
             collection.append(word)
     return collection
 
+def keyboard_row_super_optimized(words):
+    set1 = set("qwertyuiopQWERTYUIOP")
+    set2 = set("asdfghjklASDFGHJKL")
+    set3 = set("zxcvbnmZXCVBNM")
+    collection = []
+    for word in words:
+        if word == "":
+            continue
+        word1 = set(word)
+        if word1.issubset(set1) or word1.issubset(set2) or word1.issubset(set3):
+            collection.append(word)
+    return collection
+
 
 if __name__ == "__main__":
     words = ["Hello","Alaska","Dad","Peace"]
-    print keyboard_row(words)
+    print keyboard_row_super_optimized(words)

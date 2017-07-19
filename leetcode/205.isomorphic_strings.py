@@ -1,11 +1,11 @@
 #!/usr/bin/python
 #Check if the strings are isomorphic or not
 
-def iso_check(s,p):
-    map_s = {}
-    map_p = {}
+def isIsomorphic(s,p):
     if len(s) != len(p):
         return False
+    map_s = {}
+    map_p = {}
     for i in range(len(s)):
         if s[i] not in map_s and p[i] not in map_p:
             map_s[s[i]] = p[i]
@@ -17,6 +17,6 @@ def iso_check(s,p):
     return True
 
 if __name__ == "__main__":
-    s = "ab"
+    s = "dd"
     p = "aa"
-    print iso_check(s,p)
+    print isIsomorphic_using_arrays(s,p)

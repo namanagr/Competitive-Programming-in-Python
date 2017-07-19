@@ -6,21 +6,26 @@
 #return "blue is sky the".
 #Could you do it in-place without allocating extra space?
 
-def rev(self, s, i, j):
+def rev(s, i, j):
     while i < j:
         temp = s[i]
         s[i] = s[j]
         s[j] = temp
         i += 1
         j -= 1
-    return "".join
+    return "".join(s)
 
-def reverseWords(self, s):
+def reverseWords(s):
+    i = 0
     s = list(s)
-    s = self.rev(s, 0, len(s)-1)
-    for word in s.split(" "):
-        s_new.append(rev(word))
-    return " ".s_new
+    for j in range(len(s)):
+        if s[j] == " ":
+            rev(s,i,j-1)
+            i = j+1
+    rev(s,i,len(s)-1)
+    rev(s,0,len(s)-1)
+    return "".join(s)
 
 if __name__ == "__main__":
     s = "the sky is blue"
+    print reverseWords(s)

@@ -6,9 +6,9 @@ def isPalindrome(sentence):
     j = len(sentence)-1
     while i<j:
 
-        while not sentence[i].isalnum():
+        while i<j and not sentence[i].isalnum():
             i += 1
-        while not sentence[j].isalnum():
+        while i<j and not sentence[j].isalnum():
             j -= 1
         if sentence[i].lower() != sentence[j].lower():
             return False
@@ -18,4 +18,5 @@ def isPalindrome(sentence):
 
 if __name__ == "__main__":
     sentence = "A man, a plan, a canal: Panama"
-    print isPalindrome(sentence)
+    sentence1 = ",."
+    print isPalindrome(sentence1)

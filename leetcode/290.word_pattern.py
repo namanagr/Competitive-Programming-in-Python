@@ -31,4 +31,4 @@ def iso_check(s,words):
 if __name__ == "__main__":
     s = "abba"
     words = "dog cat cat dog"
-    print iso_check(s,words)
+    print naman_iso_check(s,words)
