@@ -26,7 +26,7 @@ def keyboard_row_less_optimized(words):
                 break
     return collection
 
-def keyboard_row(words):
+def keyboard_row(words): # less optimized
     keyboard_layout = ["qwertyuiop","asdfghjkl","zxcvbnm"]
     map = {}
     collection = []
