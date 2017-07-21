@@ -13,7 +13,7 @@ def pow(x, n): # recursive solution
             return -1
     if n == 0:
         return 1
-    if n < Integer.
+    if n < Integer
     if n < 0:
         x = 1/x
         n = -n
