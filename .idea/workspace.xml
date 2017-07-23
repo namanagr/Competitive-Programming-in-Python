@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d696cda8-6e16-4ca0-af62-9b9de0da0cef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nk-python/6-trees/16.no_of_half_nodes_bt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nk-python/6-trees/16b_no_of_half_nodes_iterative.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nk-python/6-trees/17b.identicalbt.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py" afterPath="$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py" />
     </list>
     <ignored path="GFG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17.structurally_identical_bt.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="17.structurally_identical_bt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16b_no_of_half_nodes_iterative.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nk-python/6-trees/16b_no_of_half_nodes_iterative.py">
+      <file leaf-file-name="17b.identicalbt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nk-python/6-trees/17b.identicalbt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="576">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -73,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/268.missing_number.py" />
         <option value="$PROJECT_DIR$/leetcode/50.pow_implmentation.py" />
         <option value="$PROJECT_DIR$/leetcode/9.palindrome_number.py" />
         <option value="$PROJECT_DIR$/leetcode/389.find_the_difference.py" />
@@ -124,6 +122,7 @@
         <option value="$PROJECT_DIR$/nk-python/6-trees/16.no_of_half_nodes_bt.py" />
         <option value="$PROJECT_DIR$/nk-python/6-trees/16b_no_of_half_nodes_iterative.py" />
         <option value="$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py" />
+        <option value="$PROJECT_DIR$/nk-python/6-trees/17b.identicalbt.py" />
       </list>
     </option>
   </component>
@@ -243,25 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16.no_of_half_nodes_bt">
-    <configuration default="false" name="14b.no_of_leaves_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nk-python/6-trees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GFG" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/14b.no_of_leaves_recursion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.17b.identicalbt">
     <configuration default="false" name="15.no_of_full_nodes_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,24 +256,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GFG" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/15.no_of_full_nodes_recursion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="15b.no_of_full_nodes_iterative" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nk-python/6-trees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GFG" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/15b.no_of_full_nodes_iterative.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,6 +292,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GFG" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/16b_no_of_half_nodes_iterative.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="17.structurally_identical_bt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nk-python/6-trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GFG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="17b.identicalbt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nk-python/6-trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GFG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nk-python/6-trees/17b.identicalbt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,19 +430,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.14b.no_of_leaves_recursion" />
-      <item index="1" class="java.lang.String" itemvalue="Python.15.no_of_full_nodes_recursion" />
-      <item index="2" class="java.lang.String" itemvalue="Python.15b.no_of_full_nodes_iterative" />
-      <item index="3" class="java.lang.String" itemvalue="Python.16.no_of_half_nodes_bt" />
-      <item index="4" class="java.lang.String" itemvalue="Python.16b_no_of_half_nodes_iterative" />
+      <item index="0" class="java.lang.String" itemvalue="Python.15.no_of_full_nodes_recursion" />
+      <item index="1" class="java.lang.String" itemvalue="Python.16.no_of_half_nodes_bt" />
+      <item index="2" class="java.lang.String" itemvalue="Python.16b_no_of_half_nodes_iterative" />
+      <item index="3" class="java.lang.String" itemvalue="Python.17.structurally_identical_bt" />
+      <item index="4" class="java.lang.String" itemvalue="Python.17b.identicalbt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.16.no_of_half_nodes_bt" />
-        <item index="1" class="java.lang.String" itemvalue="Python.16b_no_of_half_nodes_iterative" />
-        <item index="2" class="java.lang.String" itemvalue="Python.15.no_of_full_nodes_recursion" />
-        <item index="3" class="java.lang.String" itemvalue="Python.15b.no_of_full_nodes_iterative" />
-        <item index="4" class="java.lang.String" itemvalue="Python.14b.no_of_leaves_recursion" />
+        <item index="0" class="java.lang.String" itemvalue="Python.17b.identicalbt" />
+        <item index="1" class="java.lang.String" itemvalue="Python.17.structurally_identical_bt" />
+        <item index="2" class="java.lang.String" itemvalue="Python.16.no_of_half_nodes_bt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.16b_no_of_half_nodes_iterative" />
+        <item index="4" class="java.lang.String" itemvalue="Python.15.no_of_full_nodes_recursion" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -505,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500830601419</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="latest commit from thinkpad">
+      <created>1500832980628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1500832980628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -592,13 +598,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/345.reverse_volwels_of_String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/344.reverse_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -930,16 +929,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nk-python/6-trees/16b_no_of_half_nodes_iterative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nk-python/6-trees/17.structurally_identical_bt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nk-python/6-trees/17b.identicalbt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
