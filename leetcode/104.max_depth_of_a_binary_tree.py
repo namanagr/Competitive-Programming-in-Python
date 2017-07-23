@@ -7,16 +7,11 @@ class Node:
         self.left = None
         self.right = None
 
-def minDepth(root):
+def maxDepth(root):
     if root is None:
         return 0
-    if root.left is None and root.right is None:
-        return 1
-    if root.left is None:
-        return minDepth(root.right) + 1
-    if root.right is None:
-        return minDepth(root.left) + 1
-    return min(minDepth(root.left),minDepth(root.right)) + 1
+    else:
+        return max(maxDepth(root.left),maxDepth(root.right)) + 1
 
 if __name__ == "__main__":
     # Driver Program
@@ -25,4 +20,4 @@ if __name__ == "__main__":
     root.right = Node(3)
     root.left.left = Node(4)
     root.left.right = Node(5)
-    print minDepth(root)
+    print maxDepth(root)
